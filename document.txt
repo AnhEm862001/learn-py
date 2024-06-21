@@ -1,0 +1,18 @@
+=====OOP=====
+-----Document-----
+- Define a class by using the class keyword followed by a name and a colon. Then you use .__init__() to declare which attributes each instance of the class 
+- Attributes created in .__init__() are called instance attributes.
+- Use special instance method (module level dunder name - because they bengin and with double underscores), u will not call func in class
+- Naming convention - PEP8:
++ Single leading underscore	                _variable	Indicates that the name is meant for internal use only
++ Single trailing underscore	            class_	    Avoids naming conflicts with Python keywords and built-in names
++ Double leading underscore	                __attribute	Triggers name mangling in the context of Python classes
++ Double leading and trailing underscore	__name__	Indicates special attributes and methods that Python provides
++ Single underscore	                        _	        Indicates a temporary or throwaway variable
++ Always use self for the first argument to instance methods.
++ Always use cls for the first argument to class methods.
+- The super() function is used to give access to methods and properties of a parent or sibling class.
+- The super() function returns an object that represents the parent class
+
+-----Excep-----
+- When shoud u use .__repr__() vs .__str__() -> .repr used by dev and 
